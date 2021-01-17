@@ -1,0 +1,40 @@
+html {
+  -webkit-box-sizing: border-box;  
+  box-sizing: border-box;
+}
+
+*,*:before, *:after{
+  -webkit-box-sizing: inherit;  
+  box-sizing: inherit;
+}
+
+body{
+  margin: 20px 0;
+  padding: 0 20px;
+  line-height: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #202020;
+  background-color: #fbfbfb;
+  
+}
+
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+} 
+
+.add-pokemon a{
+  margin-top: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.add-pokemon a:hover{
+    color: black;
+    font-weight: 700;
+}

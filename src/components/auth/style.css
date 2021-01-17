@@ -1,0 +1,38 @@
+
+h2{
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.login{
+    max-width: 300px;
+    height: 100px;
+    margin-top: 45px;
+    border: 1px  black;
+}
+
+.log-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.log-btn button{
+    padding: 10px 2rem;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.btn-out{
+    background-color: #ef5350;
+    padding: 10px .6rem;
+    border: none;
+}
+@media (min-width: 768px){
+    .login{
+        height: 150px;
+        max-width: 450px;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}

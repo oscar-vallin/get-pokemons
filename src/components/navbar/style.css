@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ef5350;
+    min-height: 5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.navbar a:hover{
+    color: yellow;
+    font-weight: 800;
+}
+
+@media (min-width: 768px){
+    .navbar a {
+        font-size: 1.6rem;
+    }
+}

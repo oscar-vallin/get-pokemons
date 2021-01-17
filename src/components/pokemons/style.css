@@ -1,0 +1,56 @@
+
+.main-poke{
+    display: flex;
+    justify-content: center;
+}
+
+.search-pokemons__name a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.search-pokemons__name a:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-form form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: .5rem;
+}
+
+@media (min-width: 768px){
+    .card{
+        grid-template-columns: repeat(3, 33%);
+    }
+}
+
+.more-poke {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.more-poke button{
+    background-color: #E3EFFA;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+.more-pokep button:hover{
+    background-color: #5E9FDA;
+}
+@media (min-width:768px){
+    .more-poke button{
+        margin-top: 2rem;
+        padding: 1rem 1.6rem;
+        line-height: 2px;
+    }
+}
